@@ -11,7 +11,7 @@ metadata:
   requires: []
   mode: read-only
   capabilities:
-    - external_api
+    - read_only
 ---
 
 > **${var}** — Optional filter: `robinhood`, `solana`, or a token address. Empty checks the public launch feed.

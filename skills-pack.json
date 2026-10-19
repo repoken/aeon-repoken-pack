@@ -13,7 +13,7 @@
       "category": "crypto",
       "schedule": "0 9 * * *",
       "default_enabled": false,
-      "capabilities": ["external_api"]
+      "capabilities": ["read_only"]
     }
   ]
 }
