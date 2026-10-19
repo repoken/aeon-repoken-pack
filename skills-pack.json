@@ -1,0 +1,19 @@
+{
+  "name": "Repoken Agent Pack",
+  "version": "0.1.0",
+  "description": "Read-only public launch monitoring for Repoken tokens",
+  "author": "repoken",
+  "license": "MIT",
+  "homepage": "https://repoken.fun",
+  "skills": [
+    {
+      "slug": "repoken-launches",
+      "path": "skills/repoken-launches",
+      "description": "Summarize public Repoken token launches on demand",
+      "category": "crypto",
+      "schedule": "0 9 * * *",
+      "default_enabled": false,
+      "capabilities": ["external_api"]
+    }
+  ]
+}
